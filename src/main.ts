@@ -12,3 +12,22 @@ function multiply(num1:number, num2:number) : number{
 }
 
 const multiplyNums = multiply(7,3);
+
+
+// function with an obj param
+
+type Person = {
+  name:string,
+  age:number
+}
+
+const person1 : Person = {
+  name:'Erkam',
+  age:25
+}
+
+function printPerson(person : Person){
+  console.log(person)
+}
+
+printPerson(person1);
